@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #252525;
+  font-family: Arial, sans-serif;
+}
+
+.stock-card {
+  width: 250px;
+  padding: 18px;
+  border-radius: 12px;
+  background-color: white;
+  color: #111;
+}
+
+.stock-card p {
+  margin: 0 0 7px;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.stock-card p:last-child {
+  margin-bottom: 0;
+}
+
+.price-direction-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
